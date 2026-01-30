@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@deno/mod.js';
+import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.0-deno/mod.js';
 ```
 
 #### HasInstanceSymbol
@@ -97,7 +97,7 @@ var s = typeof HasInstanceSymbol;
 import isArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array@deno/mod.js';
 import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@deno/mod.js';
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@deno/mod.js';
+import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.0-deno/mod.js';
 
 function ArrayLike() {
     return {
