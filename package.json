@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-has-instance",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Has instance symbol.",
   "license": "Apache-2.0",
   "author": {
