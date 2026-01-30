@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+HasInstanceSymbol = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-has-instance/tags). For example,
+
+```javascript
 HasInstanceSymbol = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var HasInstanceSymbol = require( 'path/to/vendor/umd/symbol-has-instance/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -124,7 +129,7 @@ var s = typeof HasInstanceSymbol;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
