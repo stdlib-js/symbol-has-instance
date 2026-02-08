@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-has-instance/tags). For example,
+
+```javascript
 import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.1-esm/index.mjs';
 ```
 
@@ -102,7 +107,7 @@ var s = typeof HasInstanceSymbol;
 import isArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array@esm/index.mjs';
 import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@esm/index.mjs';
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.1-esm/index.mjs';
+import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@esm/index.mjs';
 
 function ArrayLike() {
     return {
