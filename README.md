@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-has-instance/tags). For example,
+
+```javascript
 import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.1-deno/mod.js';
 ```
 
@@ -97,7 +102,7 @@ var s = typeof HasInstanceSymbol;
 import isArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array@deno/mod.js';
 import instanceOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-instance-of@deno/mod.js';
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@v0.1.1-deno/mod.js';
+import HasInstanceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-has-instance@deno/mod.js';
 
 function ArrayLike() {
     return {
