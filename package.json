@@ -35,7 +35,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-has-instance-symbol-support": "^0.1.1"
+    "@stdlib/assert-has-has-instance-symbol-support": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-instance-of": "^0.3.1",
